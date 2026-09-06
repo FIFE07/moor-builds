@@ -11,7 +11,7 @@
   <meta property="og:type" content="website" />
   <!-- TODO: after domain purchase, add og:url and og:image -->
 
-  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="icon" type="image/png" href="logo.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,17 +24,7 @@
     <div class="wrap header-inner">
       <a class="brand" href="#top" aria-label="Moor Builds home">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" width="36" height="36" role="img" aria-label="Moor Builds logo">
-            <defs>
-              <linearGradient id="mb-tile" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#1F4BA8"/>
-                <stop offset="1" stop-color="#2E63D6"/>
-              </linearGradient>
-            </defs>
-            <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#mb-tile)"/>
-            <path class="logo-m-stroke" d="M14 33 V16 L24 27 L34 16 V33" fill="none" stroke="#FBFAF5" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle class="logo-dot" cx="34.5" cy="11" r="3.2" fill="#F5A623"/>
-          </svg>
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
         </span>
         <span class="brand-name">Moor Builds</span>
       </a>
@@ -65,7 +55,7 @@
           <a class="btn btn-ghost" href="#work">See our work</a>
         </div>
         <ul class="trust-chips reveal" role="list">
-          <li>From £150 — flat, honest pricing</li>
+          <li>Flat, honest pricing — no surprises</li>
           <li>Live in 3 working days</li>
           <li>You own everything</li>
         </ul>
@@ -91,7 +81,7 @@
             <p class="door-icon" aria-hidden="true">🔄</p>
             <h3>My site is outdated</h3>
             <p>You have a website, but it's old, slow or embarrassing on phones. We rebuild it fresh — you keep your domain, and your old site stays live until the new one is ready. Zero downtime.</p>
-            <p class="door-price">Same plans, same prices — from £150</p>
+            <p class="door-price">Same plans, same prices</p>
             <a class="link-arrow" href="#pricing">See the plans →</a>
           </div>
 
@@ -183,12 +173,12 @@
             <span class="step-num" aria-hidden="true">3</span>
             <div>
               <h3>You review, we launch</h3>
-              <p>Reply with your changes — every plan includes revision rounds. Once you're happy, you pay the balance, the site goes live on your own domain, and you get your handover pack. Done.</p>
+              <p>Reply with your changes — every plan includes revision rounds. Once the build is complete, you pay the balance, the site goes live on your own domain, and you get your handover pack. Done.</p>
             </div>
           </li>
         </ol>
         <div class="callout reveal">
-          <p><strong>Safe, simple payment.</strong> You pay securely online by card, Apple Pay or Google Pay through a payment link we email you — 50% to start, 50% only when you're happy with the site. You never see our bank details, and we never see yours.</p>
+          <p><strong>Safe, simple payment.</strong> You pay securely online by card, Apple Pay or Google Pay through a payment link we email you — 50% to start, 50% on completion, before the site goes live. You never see our bank details, and we never see yours.</p>
         </div>
       </div>
     </section>
@@ -242,7 +232,7 @@
     <section class="section" id="pricing" aria-labelledby="pricing-h">
       <div class="wrap">
         <h2 id="pricing-h" class="reveal">Honest pricing, in plain English</h2>
-        <p class="section-lede reveal">New build or redesign — same plans, same prices. Every plan: 50% to start, 50% only when you're happy. Live in 3 working days from the day we receive your content.</p>
+        <p class="section-lede reveal">New build or redesign — same plans, same prices. Every plan: 50% to start, 50% on completion — before your site goes live. Live in 3 working days from the day we receive your content.</p>
         <div class="pricing-layout">
 
           <div class="price-card reveal">
@@ -257,7 +247,7 @@
               <li>1 full revision round</li>
               <li>Handover pack</li>
             </ul>
-            <p class="price-terms">£75 to start · £75 when you're happy</p>
+            <p class="price-terms">£75 to start · £75 on completion</p>
             <a class="btn btn-ghost" href="#start">Start with Starter →</a>
           </div>
 
@@ -274,7 +264,7 @@
               <li>Social preview image</li>
               <li>2 full revision rounds</li>
             </ul>
-            <p class="price-terms">£125 to start · £125 when you're happy</p>
+            <p class="price-terms">£125 to start · £125 on completion</p>
             <a class="btn" href="#start">Start with Growth →</a>
           </div>
 
@@ -290,7 +280,7 @@
               <li>3 full revision rounds</li>
               <li>First month of care plan free</li>
             </ul>
-            <p class="price-terms">£175 to start · £175 when you're happy</p>
+            <p class="price-terms">£175 to start · £175 on completion</p>
             <a class="btn btn-ghost" href="#start">Start with Premium →</a>
           </div>
 
@@ -320,12 +310,12 @@
           <p>Yes — that's our SEO Refresh (£90 one-off). We rewrite your page titles, descriptions, headings and image tags, submit your site to Google Search Console, and check your Google Business Profile. Honest promise: we improve everything Google reads — we never guarantee rankings, and neither should anyone else.</p>
         </details>
         <details class="reveal">
-          <summary>"From £150 seems cheap. What's the catch?"</summary>
+          <summary>"Your prices seem low. What's the catch?"</summary>
           <p>No catch. We use a refined, repeatable process (the same one that built fife.earth), so what takes an agency weeks takes us days. You're paying for a professional result, not agency overheads.</p>
         </details>
         <details class="reveal">
           <summary>"What if I don't like the design?"</summary>
-          <p>You review a private preview before anything goes live, and every plan includes revision rounds. The final 50% is only due when you're happy.</p>
+          <p>You review a private preview before anything goes live, and every plan includes revision rounds — that's where you shape the result. The final 50% is due on completion, before the site goes live on your domain.</p>
         </details>
         <details class="reveal">
           <summary>"What happens if Moor Builds disappears?"</summary>

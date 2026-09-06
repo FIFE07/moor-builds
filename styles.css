@@ -78,20 +78,22 @@ a:hover { color: var(--cyan); }
   filter: drop-shadow(0 0 10px rgba(76, 141, 255, 0.45));
 }
 .brand-mark svg { display: block; }
-/* one-time draw-on when the page loads — tasteful, no spinning */
-.logo-m-stroke {
-  stroke-dasharray: 72;
-  stroke-dashoffset: 72;
-  animation: logo-draw 1.1s cubic-bezier(0.4, 0, 0.2, 1) 0.25s forwards;
+/* 3D logo: spins in on load, then a gentle endless bob-and-tilt */
+.brand { perspective: 500px; }
+.brand-logo {
+  width: 36px; height: 36px; display: block; border-radius: 9px;
+  transform-style: preserve-3d;
+  animation: logo-spin-in 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both,
+             logo-bob 3.4s ease-in-out 1.5s infinite;
 }
-@keyframes logo-draw { to { stroke-dashoffset: 0; } }
-.logo-dot {
-  transform: scale(0);
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: dot-pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) 1.15s forwards;
+@keyframes logo-spin-in {
+  from { transform: rotateY(95deg) scale(0.5); opacity: 0; }
+  to { transform: rotateY(0deg) scale(1); opacity: 1; }
 }
-@keyframes dot-pop { to { transform: scale(1); } }
+@keyframes logo-bob {
+  0%, 100% { transform: translateY(0) rotateY(-8deg); }
+  50% { transform: translateY(-3px) rotateY(10deg); }
+}
 .brand-name { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.18rem; }
 .nav { display: flex; align-items: center; gap: 22px; }
 .nav a {
@@ -355,8 +357,7 @@ input::placeholder, textarea::placeholder { color: rgba(154, 167, 190, 0.55); }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .popular-badge { animation: none; }
-  .logo-m-stroke { stroke-dashoffset: 0; animation: none; }
-  .logo-dot { transform: scale(1); animation: none; }
+  .brand-logo { animation: none; }
   * { transition-duration: 0.01ms !important; }
 }
 
