@@ -248,7 +248,7 @@
               <li>Handover pack</li>
             </ul>
             <p class="price-terms">£75 to start · £75 on completion</p>
-            <a class="btn btn-ghost" href="#start">Start with Starter →</a>
+            <a class="btn btn-ghost" href="#start" data-plan="starter">Start with Starter →</a>
           </div>
 
           <div class="price-card price-popular reveal">
@@ -265,7 +265,7 @@
               <li>2 full revision rounds</li>
             </ul>
             <p class="price-terms">£125 to start · £125 on completion</p>
-            <a class="btn" href="#start">Start with Growth →</a>
+            <a class="btn" href="#start" data-plan="growth">Start with Growth →</a>
           </div>
 
           <div class="price-card reveal">
@@ -281,7 +281,7 @@
               <li>First month of care plan free</li>
             </ul>
             <p class="price-terms">£175 to start · £175 on completion</p>
-            <a class="btn btn-ghost" href="#start">Start with Premium →</a>
+            <a class="btn btn-ghost" href="#start" data-plan="premium">Start with Premium →</a>
           </div>
 
         </div>
@@ -434,6 +434,17 @@
     })();
   </script>
 
+  <script>
+    // Pre-select the plan when a pricing button is clicked.
+    (function () {
+      var select = document.getElementById('f-plan');
+      document.querySelectorAll('[data-plan]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          select.value = btn.getAttribute('data-plan');
+        });
+      });
+    })();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
     // Branded welcome email via EmailJS (free tier). Enquiry still goes to FormSubmit.
@@ -447,6 +458,8 @@
       }
       form.addEventListener('submit', function (e) {
         e.preventDefault();
+        var btn = form.querySelector('button[type=submit]');
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
         var submitted = false;
         function proceed() {
           if (submitted) return;
@@ -464,7 +477,7 @@
             business_name: biz,
             welcome_html: html
           }).then(proceed, proceed);
-          setTimeout(proceed, 5000);
+          setTimeout(proceed, 2500);
         } catch (err) {
           proceed();
         }
