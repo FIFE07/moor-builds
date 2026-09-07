@@ -341,14 +341,8 @@
           within one working day with your content checklist and next steps.
         </p>
 
-        <!--
-          TODO (owner action, 2 minutes, free):
-          1. Go to https://web3forms.com and enter the business email to get a free Access Key.
-          2. Paste it in the value below, replacing PASTE_YOUR_WEB3FORMS_ACCESS_KEY.
-          Free tier: 250 submissions/month — plenty.
-        -->
         <form id="intake-form" action="https://api.web3forms.com/submit" method="POST" class="reveal">
-          <input type="hidden" name="access_key" value="PASTE_YOUR_WEB3FORMS_ACCESS_KEY" />
+          <input type="hidden" name="access_key" value="e6a3aca6-6e02-47ae-8dac-6d6827e509be" />
           <input type="hidden" name="subject" value="New website enquiry — Moor Builds" />
           <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" />
 
@@ -398,7 +392,6 @@
         <p class="form-alt">
           Prefer email or WhatsApp first? No problem —
           email <a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a> and we'll take it from there.
-          <!-- TODO: activates when the domain is purchased. -->
         </p>
       </div>
     </section>
@@ -444,12 +437,6 @@
       var form = document.getElementById('intake-form');
       var status = document.getElementById('form-status');
       form.addEventListener('submit', function (e) {
-        var key = form.querySelector('input[name="access_key"]').value;
-        if (key === 'PASTE_YOUR_WEB3FORMS_ACCESS_KEY') {
-          e.preventDefault();
-          status.textContent = 'This form is not connected yet — please email hello@moorbuilds.co.uk instead.';
-          return;
-        }
         e.preventDefault();
         status.textContent = 'Sending…';
         fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
