@@ -345,7 +345,6 @@
           <input type="hidden" name="_subject" value="New website enquiry — Moor Builds" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_next" value="https://moorbuilds.co.uk/thanks.html" />
-          <input type="hidden" name="_autoresponse" value="Thank you for reaching out to Moor Builds — your enquiry has landed safely. A member of our team will personally review it and reply within one working day with our recommendation and next steps. In the meantime, feel free to browse our plans and pricing at https://moorbuilds.co.uk — and if anything else comes to mind, simply reply to this email. Speak soon, The Moor Builds Team" />
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
 
           <label for="f-name">Your name
@@ -431,6 +430,44 @@
         });
       }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
       els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // Branded welcome email via EmailJS (free tier). Enquiry still goes to FormSubmit.
+    (function () {
+      if (typeof emailjs === 'undefined') return;
+      emailjs.init({ publicKey: 'Ecmu9o5hCaNxdLoHh' });
+      var form = document.getElementById('intake-form');
+      var WELCOME_HTML = "<!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> </head> <body style=\"margin:0; padding:0; background-color:#0d1117; font-family:Georgia, 'Times New Roman', serif;\">  <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color:#0d1117; padding:32px 16px;\">   <tr>    <td align=\"center\">     <table role=\"presentation\" width=\"560\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width:560px; width:100%; background-color:#151b26; border-radius:16px; overflow:hidden; border:1px solid #233047;\">      <!-- Header -->      <tr>       <td style=\"background:linear-gradient(135deg,#1a2f5a 0%,#0d1117 100%); padding:36px 40px; text-align:center;\">        <p style=\"margin:0; font-size:26px; letter-spacing:1px; color:#ffffff; font-weight:bold;\">Moor <span style=\"color:#5b8def;\">Builds</span></p>        <p style=\"margin:8px 0 0; font-size:12px; letter-spacing:3px; text-transform:uppercase; color:#8fa8d8;\">Websites in 3 days</p>       </td>      </tr>      <!-- Body -->      <tr>       <td style=\"padding:40px 40px 8px;\">        <p style=\"margin:0 0 6px; font-size:13px; letter-spacing:2px; text-transform:uppercase; color:#5b8def;\">Enquiry received</p>        <h1 style=\"margin:0 0 20px; font-size:28px; line-height:1.3; color:#ffffff; font-weight:600;\">Thank you, __NAME__ — you're in. ✅</h1>        <p style=\"margin:0 0 16px; font-size:16px; line-height:1.7; color:#c7d2e4; font-family:Arial, Helvetica, sans-serif;\">         Your enquiry about <strong style=\"color:#ffffff;\">__BIZ__</strong> has landed         safely with our team. A member of our team will personally review it and reply within         <strong style=\"color:#5b8def;\">one working day</strong> with our recommendation and next steps.        </p>        <p style=\"margin:0 0 28px; font-size:16px; line-height:1.7; color:#c7d2e4; font-family:Arial, Helvetica, sans-serif;\">         Want to speed things up? Simply reply to this email with anything else we should         know — photos, your menu or price list, or websites you like the look of.        </p>       </td>      </tr>      <!-- What happens next -->      <tr>       <td style=\"padding:0 40px 32px;\">        <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color:#0d1420; border-radius:12px; border:1px solid #233047;\">         <tr>          <td style=\"padding:24px 28px;\">           <p style=\"margin:0 0 14px; font-size:13px; letter-spacing:2px; text-transform:uppercase; color:#5b8def;\">What happens next</p>           <p style=\"margin:0 0 10px; font-size:15px; line-height:1.6; color:#c7d2e4; font-family:Arial, Helvetica, sans-serif;\">1.&nbsp; We review your enquiry and recommend the right plan — in writing, with reasons.</p>           <p style=\"margin:0 0 10px; font-size:15px; line-height:1.6; color:#c7d2e4; font-family:Arial, Helvetica, sans-serif;\">2.&nbsp; You secure your slot with a 50% deposit (card, Apple Pay or Google Pay).</p>           <p style=\"margin:0; font-size:15px; line-height:1.6; color:#c7d2e4; font-family:Arial, Helvetica, sans-serif;\">3.&nbsp; We build. Your site is ready to review in 3 working days.</p>          </td>         </tr>        </table>       </td>      </tr>      <!-- CTA -->      <tr>       <td align=\"center\" style=\"padding:0 40px 36px;\">        <a href=\"https://moorbuilds.co.uk\" style=\"display:inline-block; background-color:#5b8def; color:#0d1117; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-decoration:none; padding:14px 34px; border-radius:50px;\">Browse our plans →</a>       </td>      </tr>      <!-- Footer -->      <tr>       <td style=\"padding:24px 40px; border-top:1px solid #233047; text-align:center;\">        <p style=\"margin:0 0 4px; font-size:13px; color:#8fa8d8; font-family:Arial, Helvetica, sans-serif;\">Moor Builds · London, UK</p>        <p style=\"margin:0; font-size:13px; color:#5f7290; font-family:Arial, Helvetica, sans-serif;\">         <a href=\"https://moorbuilds.co.uk\" style=\"color:#5b8def; text-decoration:none;\">moorbuilds.co.uk</a>         &nbsp;·&nbsp;         <a href=\"mailto:hello@moorbuilds.co.uk\" style=\"color:#5b8def; text-decoration:none;\">hello@moorbuilds.co.uk</a>        </p>       </td>      </tr>     </table>    </td>   </tr>  </table> </body> </html> ";
+      function esc(s) {
+        return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var submitted = false;
+        function proceed() {
+          if (submitted) return;
+          submitted = true;
+          form.submit();
+        }
+        try {
+          var name = (document.getElementById('f-name').value || 'there').trim();
+          var biz = (document.getElementById('f-biz').value || 'your business').trim();
+          var email = document.getElementById('f-email').value;
+          var html = WELCOME_HTML.split('__NAME__').join(esc(name)).split('__BIZ__').join(esc(biz));
+          emailjs.send('service_mq98ppj', 'template_lujv4ct', {
+            to_email: email,
+            name: name,
+            business_name: biz,
+            welcome_html: html
+          }).then(proceed, proceed);
+          setTimeout(proceed, 5000);
+        } catch (err) {
+          proceed();
+        }
+      });
     })();
   </script>
 </body>
