@@ -341,10 +341,12 @@
           within one working day with your content checklist and next steps.
         </p>
 
-        <form id="intake-form" action="https://api.web3forms.com/submit" method="POST" class="reveal">
-          <input type="hidden" name="access_key" value="e6a3aca6-6e02-47ae-8dac-6d6827e509be" />
-          <input type="hidden" name="subject" value="New website enquiry — Moor Builds" />
-          <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" />
+        <form id="intake-form" action="https://formsubmit.co/hello@moorbuilds.co.uk" method="POST" class="reveal">
+          <input type="hidden" name="_subject" value="New website enquiry — Moor Builds" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="https://moorbuilds.co.uk/thanks.html" />
+          <input type="hidden" name="_autoresponse" value="Thank you for reaching out to Moor Builds! Your enquiry has landed safely in our inbox. A real person (not a bot) will reply within one working day with our recommendation and next steps. In the meantime, you can look at our plans and pricing at https://moorbuilds.co.uk — and if you think of anything else, just reply to this email. Speak soon, Moor Builds" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
 
           <label for="f-name">Your name
             <input id="f-name" name="name" type="text" autocomplete="name" required />
@@ -386,7 +388,6 @@
           </label>
 
           <button class="btn" type="submit">Send — we'll reply within 1 working day</button>
-          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
 
         <p class="form-alt">
@@ -430,29 +431,6 @@
         });
       }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
       els.forEach(function (el) { io.observe(el); });
-    })();
-
-    // Intake form: submit via fetch, friendly fallbacks
-    (function () {
-      var form = document.getElementById('intake-form');
-      var status = document.getElementById('form-status');
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        status.textContent = 'Sending…';
-        fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
-          .then(function (r) { return r.json(); })
-          .then(function (data) {
-            if (data.success) {
-              form.reset();
-              status.textContent = 'Thank you! Your details are in — we\'ll reply within one working day.';
-            } else {
-              status.textContent = 'Something went wrong — please email hello@moorbuilds.co.uk instead.';
-            }
-          })
-          .catch(function () {
-            status.textContent = 'Could not send — please email hello@moorbuilds.co.uk instead.';
-          });
-      });
     })();
   </script>
 </body>
