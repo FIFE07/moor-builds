@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moorbuilds.co.uk/sitemap.xml
