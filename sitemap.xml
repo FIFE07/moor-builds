@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://moorbuilds.co.uk/</loc><priority>1.0</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-barbers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-bakeries.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-salons.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cleaners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-tutors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cafes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-dog-groomers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-personal-trainers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-photographers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-tradespeople.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/privacy.html</loc><priority>0.2</priority></url>
   <url><loc>https://moorbuilds.co.uk/terms.html</loc><priority>0.2</priority></url>
 </urlset>
