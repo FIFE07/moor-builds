@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Websites for Builders — Live in 3 Days, From £150 | Moor Builds</title>
+  <meta name="description" content="Websites for builders, built in 3 working days from £150 flat. Mobile-first design, Google submission included, 50% deposit. You own everything." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Moor Builds home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
+        </span>
+        <span class="brand-name">Moor Builds</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#pricing">Pricing</a>
+        <a href="/#work">Our work</a>
+        <a class="btn btn-small" href="/#start">Start your website</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Websites for builders</p>
+        <h1 class="reveal">Your building company, winning better projects — <em>in 3 days.</em></h1>
+        <p class="lede reveal">Extensions, loft conversions and renovations start with searches like 'builders near me' or 'extension builders' plus your town. Homeowners shortlist carefully — they want past projects, insurance and references. A proper website is where you prove all three.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Start your website →</a>
+          <a class="btn btn-ghost" href="/#pricing">See plans &amp; prices</a>
+        </div>
+        <ul class="trust-chips reveal" role="list">
+          <li>From £150 flat — no surprises</li>
+          <li>Live in 3 working days</li>
+          <li>50% to start, 50% on completion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">What your website includes</h2>
+        <p class="section-lede reveal">Extensions, conversions, renovations and new-build services, a project gallery with descriptions, insurance and accreditation details, the areas you cover, testimonials, and a project enquiry form.</p>
+        <div class="card-grid">
+          <div class="card reveal"><h3>Mobile-first, always</h3><p>Built mobile-first because that's where your customers are — with tap-to-call and WhatsApp buttons where they matter.</p></div>
+          <div class="card reveal"><h3>Search sorted</h3><p>Structured for Google from day one: real titles, real descriptions, and submission to Search Console once we're live.</p></div>
+          <div class="card reveal"><h3>Your site, your property</h3><p>Everything is registered to you and handed over to you. No lock-in, no hostage situations, no nonsense.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">The maths is simple</h2>
+        <p class="section-lede reveal">Building projects run into tens of thousands. If the site helps you win even one modest job, the return is beyond comparison.</p>
+        <p class="section-lede reveal"><strong>From £150 flat</strong>, with 50% paid to start and 50% only when the site is finished and ready to go live. Hosting costs you nothing; the domain — around £10–15 a year — is registered in your name.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Tell us about your building company →</a>
+        </div>
+        <p class="form-alt reveal">Two minutes, no commitment. We reply by email within one working day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Moor Builds</p>
+        <p>Websites for small local businesses. Looking your best online, in 3 days, without the agency price tag.</p>
+      </div>
+      <div class="footer-meta">
+        <p><a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a></p>
+        <p class="footer-legal">Moor Builds · London, UK</p>
+        <p class="footer-legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('visible'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
