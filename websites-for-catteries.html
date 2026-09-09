@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Websites for Catteries — Live in 3 Days, From £150 | Moor Builds</title>
+  <meta name="description" content="Fast, honest websites for catteries — designed mobile-first and live in 3 working days. From £150 flat, 50% to start and 50% on completion." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Moor Builds home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
+        </span>
+        <span class="brand-name">Moor Builds</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#pricing">Pricing</a>
+        <a href="/#work">Our work</a>
+        <a class="btn btn-small" href="/#start">Start your website</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Websites for catteries</p>
+        <h1 class="reveal">Your cattery, booked out every season — <em>in 3 days.</em></h1>
+        <p class="lede reveal">Owners search 'cattery near me' or 'cattery' plus your town before every holiday, and they choose carefully. They want photos of the pens, daily routines, prices and availability. A website that shows all four turns anxious owners into repeat bookers.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Start your website →</a>
+          <a class="btn btn-ghost" href="/#pricing">See plans &amp; prices</a>
+        </div>
+        <ul class="trust-chips reveal" role="list">
+          <li>From £150 flat — no surprises</li>
+          <li>Live in 3 working days</li>
+          <li>50% to start, 50% on completion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">What your website includes</h2>
+        <p class="section-lede reveal">Photos of your accommodation and grounds, daily care routines, prices including peak rates, requirements like vaccinations, your location, reviews, and an availability enquiry form.</p>
+        <div class="card-grid">
+          <div class="card reveal"><h3>Built for phones first</h3><p>Most of your customers will find you on their phone. Your site is designed mobile-first, with tap-to-call and tap-to-WhatsApp buttons.</p></div>
+          <div class="card reveal"><h3>Found on Google</h3><p>Proper page titles, descriptions and Google-friendly structure — plus we submit your site to Google Search Console so it can start appearing in search.</p></div>
+          <div class="card reveal"><h3>You own everything</h3><p>Your domain, your hosting account, your files. No lock-in, ever. If we vanished tomorrow, your website would keep running untouched.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">The maths is simple</h2>
+        <p class="section-lede reveal">A fortnight's stay is £150 to £300 per cat. A handful of extra bookings a year — easily won through Google — covers the site.</p>
+        <p class="section-lede reveal">Pricing is flat and public: <strong>from £150</strong>, half to start and half when the build is complete, before launch. Hosting is free and reliable; your domain is about £10–15 a year, bought in your name.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Tell us about your cattery →</a>
+        </div>
+        <p class="form-alt reveal">Two minutes, no commitment. We reply by email within one working day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Moor Builds</p>
+        <p>Websites for small local businesses. Looking your best online, in 3 days, without the agency price tag.</p>
+      </div>
+      <div class="footer-meta">
+        <p><a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a></p>
+        <p class="footer-legal">Moor Builds · London, UK</p>
+        <p class="footer-legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('visible'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
