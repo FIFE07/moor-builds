@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Design in Epsom — Live in 3 Days, From £150 | Moor Builds</title>
+  <meta name="description" content="Website design for Epsom small businesses — live in 3 working days, from £150 flat. Mobile-first, Google-ready, you own everything." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Moor Builds home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
+        </span>
+        <span class="brand-name">Moor Builds</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#pricing">Pricing</a>
+        <a href="/#work">Our work</a>
+        <a class="btn btn-small" href="/#start">Start your website</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Website design in Epsom</p>
+        <h1 class="reveal">Your Epsom business, easier to find — <em>live in 3 days.</em></h1>
+        <p class="lede reveal">From the racecourse crowds to year-round locals, Epsom customers find businesses by searching — 'Epsom florist', 'osteopath near me', 'café Epsom'. A proper website puts your name, prices and phone button in front of them at that exact moment.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Start your website →</a>
+          <a class="btn btn-ghost" href="/#pricing">See plans &amp; prices</a>
+        </div>
+        <ul class="trust-chips reveal" role="list">
+          <li>From £150 flat — no surprises</li>
+          <li>Live in 3 working days</li>
+          <li>50% to start, 50% on completion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">What your website includes</h2>
+        <p class="section-lede reveal">A mobile-first website covering your services, prices, hours and location, with tap-to-call buttons and Google-friendly structure, submitted to Search Console so local searches can reach you.</p>
+        <div class="card-grid">
+          <div class="card reveal"><h3>Made for mobile</h3><p>Customers search on phones, so we build for phones first. Big buttons, fast loading, tap-to-call — no pinching and zooming.</p></div>
+          <div class="card reveal"><h3>Set up for search</h3><p>Clean titles, meta descriptions and a structure Google understands, submitted to Search Console so you're indexed and findable.</p></div>
+          <div class="card reveal"><h3>No lock-in, ever</h3><p>The domain is yours, the files are yours, the hosting account is yours. Walk away any time — everything keeps working.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">The maths is simple</h2>
+        <p class="section-lede reveal">Epsom customers are loyal once they find you. A website that wins a few regulars pays for itself within a couple of months, then keeps paying.</p>
+        <p class="section-lede reveal"><strong>From £150 flat</strong>, with 50% paid to start and 50% only when the site is finished and ready to go live. Hosting costs you nothing; the domain — around £10–15 a year — is registered in your name.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Tell us about your Epsom business →</a>
+        </div>
+        <p class="form-alt reveal">Two minutes, no commitment. We reply by email within one working day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Moor Builds</p>
+        <p>Websites for small local businesses. Looking your best online, in 3 days, without the agency price tag.</p>
+      </div>
+      <div class="footer-meta">
+        <p><a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a></p>
+        <p class="footer-legal">Moor Builds · London, UK</p>
+        <p class="footer-legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('visible'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
