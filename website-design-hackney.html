@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Design in Hackney — Live in 3 Days, From £150 | Moor Builds</title>
+  <meta name="description" content="Website design for Hackney small businesses — live in 3 working days, from £150 flat. Mobile-first, Google-ready, you own everything." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Moor Builds home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
+        </span>
+        <span class="brand-name">Moor Builds</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#pricing">Pricing</a>
+        <a href="/#work">Our work</a>
+        <a class="btn btn-small" href="/#start">Start your website</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Website design in Hackney</p>
+        <h1 class="reveal">A website for your Hackney business — <em>live in 3 days.</em></h1>
+        <p class="lede reveal">Hackney's makers, cafés and trades compete in one of London's most searched neighbourhoods: 'Hackney florist', 'website design Hackney'. A clear, fast website is how an independent stands out from the noise.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Start your website →</a>
+          <a class="btn btn-ghost" href="/#pricing">See plans &amp; prices</a>
+        </div>
+        <ul class="trust-chips reveal" role="list">
+          <li>From £150 flat — no surprises</li>
+          <li>Live in 3 working days</li>
+          <li>50% to start, 50% on completion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">What your website includes</h2>
+        <p class="section-lede reveal">A mobile-first website with your services, prices, gallery and contact buttons, your location on Google Maps, and search-friendly pages submitted to Google Search Console.</p>
+        <div class="card-grid">
+          <div class="card reveal"><h3>Mobile-first, always</h3><p>Built mobile-first because that's where your customers are — with tap-to-call and WhatsApp buttons where they matter.</p></div>
+          <div class="card reveal"><h3>Search sorted</h3><p>Structured for Google from day one: real titles, real descriptions, and submission to Search Console once we're live.</p></div>
+          <div class="card reveal"><h3>Your site, your property</h3><p>Everything is registered to you and handed over to you. No lock-in, no hostage situations, no nonsense.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">The maths is simple</h2>
+        <p class="section-lede reveal">Hackney customers seek out independents deliberately. A site that helps them choose you pays for itself quickly.</p>
+        <p class="section-lede reveal"><strong>From £150 flat</strong>, with 50% paid to start and 50% only when the site is finished and ready to go live. Hosting costs you nothing; the domain — around £10–15 a year — is registered in your name.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Tell us about your Hackney business →</a>
+        </div>
+        <p class="form-alt reveal">Two minutes, no commitment. We reply by email within one working day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Moor Builds</p>
+        <p>Websites for small local businesses. Looking your best online, in 3 days, without the agency price tag.</p>
+      </div>
+      <div class="footer-meta">
+        <p><a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a></p>
+        <p class="footer-legal">Moor Builds · London, UK</p>
+        <p class="footer-legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('visible'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
