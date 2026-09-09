@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Websites for Wedding Photographers — Live in 3 Days, From £150 | Moor Builds</title>
+  <meta name="description" content="Professional websites for wedding photographers. Mobile-first, live in 3 working days, from £150 flat. 50% to start, 50% on completion. You own everything." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Moor Builds home">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="logo.png" alt="" width="36" height="36" onerror="this.onerror=null;this.style.display='none'" />
+        </span>
+        <span class="brand-name">Moor Builds</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#pricing">Pricing</a>
+        <a href="/#work">Our work</a>
+        <a class="btn btn-small" href="/#start">Start your website</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">Websites for wedding photographers</p>
+        <h1 class="reveal">Your wedding photography, booked further ahead — <em>in 3 days.</em></h1>
+        <p class="lede reveal">Couples search 'wedding photographer' plus their county a year or more out, then shortlist on portfolio, style and package clarity. If your work sits only on Instagram, you're competing without your best images. A proper portfolio site changes that.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Start your website →</a>
+          <a class="btn btn-ghost" href="/#pricing">See plans &amp; prices</a>
+        </div>
+        <ul class="trust-chips reveal" role="list">
+          <li>From £150 flat — no surprises</li>
+          <li>Live in 3 working days</li>
+          <li>50% to start, 50% on completion</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-deep">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">What your website includes</h2>
+        <p class="section-lede reveal">Galleries from real weddings, your packages and what's included, your approach on the day, the areas you cover, availability checking, testimonials, and an enquiry form with a date field.</p>
+        <div class="card-grid">
+          <div class="card reveal"><h3>Phone-first design</h3><p>Over half of local searches happen on a phone. Your site loads fast, looks right and makes calling you a one-tap job.</p></div>
+          <div class="card reveal"><h3>Google-ready from day one</h3><p>We write proper titles and descriptions for every page and submit the site to Google Search Console, so search engines can pick it up.</p></div>
+          <div class="card reveal"><h3>It's yours</h3><p>No monthly fees to us, no lock-in. Your domain, your files, your site — it keeps running whatever happens.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap-narrow">
+        <h2 class="reveal">The maths is simple</h2>
+        <p class="section-lede reveal">One wedding booking is over £1,000. If the website wins you a single extra wedding, it has repaid itself many times over.</p>
+        <p class="section-lede reveal">Plans from <strong>£150 flat</strong> — 50% to start, 50% only when the build is complete, before it goes live. Free, reliable hosting included. You buy your own domain (about £10–15/year, in your name — yours forever).</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="/#start">Tell us about your photography →</a>
+        </div>
+        <p class="form-alt reveal">Two minutes, no commitment. We reply by email within one working day.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Moor Builds</p>
+        <p>Websites for small local businesses. Looking your best online, in 3 days, without the agency price tag.</p>
+      </div>
+      <div class="footer-meta">
+        <p><a href="mailto:hello@moorbuilds.co.uk">hello@moorbuilds.co.uk</a></p>
+        <p class="footer-legal">Moor Builds · London, UK</p>
+        <p class="footer-legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('visible'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
