@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="mb-sky" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#2E63D6"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+    <clipPath id="mb-clip">
+      <circle cx="24" cy="24" r="22"/>
+    </clipPath>
+  </defs>
+  <circle cx="24" cy="24" r="22" fill="url(#mb-sky)"/>
+  <g clip-path="url(#mb-clip)">
+    <!-- rising sun -->
+    <circle class="logo-sun" cx="24" cy="21" r="5.5" fill="#FFC24B"/>
+    <!-- moor hills -->
+    <path d="M2 34 L13 22 L21 31 L27 24 L36 33 L46 26 L46 48 L2 48 Z" fill="#0E1524" opacity="0.92"/>
+    <path d="M2 40 L14 31 L24 38 L34 30 L46 37 L46 48 L2 48 Z" fill="#0A0D13" opacity="0.95"/>
+  </g>
+  <circle cx="24" cy="24" r="22" fill="none" stroke="#8FB8FF" stroke-opacity="0.5" stroke-width="1"/>
+</svg>

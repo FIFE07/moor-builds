@@ -1,0 +1,9 @@
+{
+  "name": "moor-builds-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Moor Builds studio website — static HTML/CSS, no build step.",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
