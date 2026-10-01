@@ -3,9 +3,18 @@
   <url><loc>https://moorbuilds.co.uk/</loc><priority>1.0</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-accountants.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-aesthetics-clinics.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-air-conditioning-installers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-alloy-wheel-repair.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-antenatal-classes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-antiques-dealers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-aquarium-services.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-architects.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-art-classes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-auction-houses.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-audiologists.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-baby-sensory-classes.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-bakeries.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-balloon-decorators.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-barbers-afro.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-barbers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-barbershops-mobile.html</loc><priority>0.8</priority></url>
@@ -14,12 +23,16 @@
   <url><loc>https://moorbuilds.co.uk/websites-for-bed-and-breakfasts.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-bike-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-boat-repair.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-boiler-repair.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-bookkeepers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-bookshops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-bouncy-castle-hire.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-boxing-coaches.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-braiders.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-bricklayers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-bridal-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-builders.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-burglar-alarms.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-business-coaches.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-butchers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-cafes.html</loc><priority>0.8</priority></url>
@@ -27,91 +40,150 @@
   <url><loc>https://moorbuilds.co.uk/websites-for-campsites.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-car-detailers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-caravan-dealers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-care-agencies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-careers-advisers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-carpet-cleaners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-carpet-fitters.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cat-groomers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-caterers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-catteries.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cctv-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-celebrants.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-cheesemongers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-childminders.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-childrens-entertainers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-chimney-sweeps.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-chiropractors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-chocolatiers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-classic-car-restoration.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-cleaners.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-coffee-roasters.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-coffee-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-commercial-cleaning.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-computer-repair.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-conservatory-installers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cookery-schools.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-counsellors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-craft-breweries.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-curtain-makers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-cv-writing.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-damp-proofing.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dance-schools.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-delicatessens.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dentists.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-distilleries.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-djs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-dog-day-care.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dog-groomers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dog-trainers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dog-walkers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-double-glazing.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-doulas.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-drainage-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-drama-schools.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dressmakers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-driveway-contractors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-driving-instructors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-drone-photography.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-dry-cleaners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-electric-gates.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-electricians.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-embroidery-services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-end-of-tenancy-cleaning.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-escape-rooms.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-estate-let-agents.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-ev-charger-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-event-planners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-exam-prep-tutors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-fabric-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-face-painters.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-fancy-dress-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-farm-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-farriers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-fencing-contractors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-financial-advisers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-fire-alarm-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-first-aid-training.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-fish-and-chip-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-fishing-tackle-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-fishmongers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-flooring-fitters.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-florists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-food-trucks.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-forklift-training.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-funeral-directors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-furniture-restorers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-garage-door-repairs.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-garden-centres.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-gardeners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-gin-experiences.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-glamping-sites.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-golf-instructors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-greengrocers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-gutter-cleaners.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-hair-braiding.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-health-food-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-heat-pump-installers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-hgv-training.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-holiday-lets.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-home-cinema-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-horse-riding-schools.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-house-clearance.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-hypnotherapists.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-ice-cream-parlours.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-immigration-advisers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-independent-gyms.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-insulation-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-insurance-brokers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-interior-designers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-ironing-services.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-jewellery-repair.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-joiners.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-kennels.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-kilt-hire.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-kitchen-fitters.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-landscapers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-language-tutors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-laser-hair-removal.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-lash-techs.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-launderettes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-leak-detection.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-life-coaches.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-live-bands.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-livery-yards.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-locksmiths.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-loft-conversions.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-log-suppliers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-magicians.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-makeup-artists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-man-and-van.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-marquee-hire.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-martial-arts.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-massage-therapists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-meal-prep-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-mediation-services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-memorial-masons.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-mobile-dog-groomers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-mobile-mechanics.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-mortgage-brokers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-mot-garages.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-motorhome-hire.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-music-teachers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-musical-instrument-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-nail-techs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-newborn-photographers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-nurseries.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-nutritionists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-opticians.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-osteopaths.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-oven-cleaners.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-painters-decorators.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-party-supplies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-pat-testing.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-personal-chefs.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-personal-trainers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-pest-controllers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-pet-cremation-services.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-pet-photographers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-pet-sitters.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-phone-repair.html</loc><priority>0.8</priority></url>
@@ -119,40 +191,64 @@
   <url><loc>https://moorbuilds.co.uk/websites-for-photographers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-physiotherapists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-piano-tuners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-picture-framers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-pilates-instructors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-plasterers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-plumbers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-podiatrists.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-pond-installers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-pottery-classes.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-pressure-washing.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-printers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-probate-specialists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-property-managers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-pubs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-record-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-recording-studios.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-rehearsal-studios.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-rendering-companies.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-restaurants.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-roofers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-salons.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-sash-window-specialists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-scaffolding-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-security-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-septic-tank-services.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-sign-makers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-skip-hire.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-smart-home-installers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-soft-play-centres.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-solar-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-solicitors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-stonemasons.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-storage-companies.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-stove-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-structural-engineers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-suit-hire.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-surveyors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-sweet-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-swimming-instructors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tailors.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-takeaways.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tattoo-artists.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tattoo-removal.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tax-advisers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-tea-rooms.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tennis-coaches.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tradespeople.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tree-surgeons.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-trophy-shops.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-tutors-11-plus.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tutors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-tv-aerial-installers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-tyre-fitters.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-underfloor-heating.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-upholsterers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-vehicle-wraps.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-vets.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-videographers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-vineyard-tours.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-vocal-coaches.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-waste-removal.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-watch-repair.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-wedding-photographers.html</loc><priority>0.8</priority></url>
@@ -160,31 +256,55 @@
   <url><loc>https://moorbuilds.co.uk/websites-for-wedding-venues.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-will-writers.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-window-cleaners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-window-tinting.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-windscreen-repair.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-wine-merchants.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/websites-for-yoga-instructors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/websites-for-zero-waste-shops.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-aberdeen.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-aberfeldy.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-adelaide-hills-sa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-airdrie-ab.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-aldeburgh.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-alnwick.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-alpharetta-ga.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-altrincham.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-ambleside.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-amersham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-arundel.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-asheville-nc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-aurora-on.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-avalon-nsw.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-ayr.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bakewell.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-ballarat-vic.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bath.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-beaconsfield.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-belfast.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bellevue-wa.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bend-or.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bethesda-md.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bexleyheath.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-birmingham.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bishop-stortford.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-blackpool.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-blue-mountains-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bolton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-boulder-co.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bowness.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bowral-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bozeman-mt.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-bridport.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-brighton-vic.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-brighton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bristol.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-brixton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-bromley.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-burford.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-burlington-on.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-burnham-market.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-byron-bay-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-callander.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-camberwell-vic.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cambridge.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-camden.html</loc><priority>0.8</priority></url>
@@ -192,28 +312,44 @@
   <url><loc>https://moorbuilds.co.uk/website-design-carmel-in.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cary-nc.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-castle-hill-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-castleton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cheltenham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-chertsey.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-chester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-chichester.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-chipping-campden.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-chipping-norton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-chorleywood.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-church-stretton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-cirencester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cobham.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-corbridge.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cottesloe-wa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-coventry.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-crail.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-cronulla-nsw.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-croydon.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-danville-ca.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-darien-ct.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-dartford.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-deal.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-derby.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-dorchester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-dorking.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-dundee.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-dunfermline.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-dunkeld.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-dunsborough-wa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-edina-mn.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-edinburgh.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-elora-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-epsom.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-esher.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-exeter.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-falmouth.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-farnham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-fife.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-franklin-tn.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-fremantle-wa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-frisco-tx.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-geelong-vic.html</loc><priority>0.8</priority></url>
@@ -221,57 +357,92 @@
   <url><loc>https://moorbuilds.co.uk/website-design-glasgow.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-gloucester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-godalming.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-grassington.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-gravesend.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-great-malvern.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-greenville-sc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-greenwich-ct.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-guelph-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-guildford.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-hackney.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-harpenden.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-harrogate.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-haslemere.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-hawes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-haworth.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-hawthorn-vic.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-helensburgh.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-henley-on-thames.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-hitchin.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-holmfirth.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-honiton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-hull.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-ilkley.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-inverness.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-ipswich.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-irvine-ca.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-islington.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-kanata-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-kelowna-bc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-kelso.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-keswick.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-kiama-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-kingston-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-kingston-upon-thames.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-kirkcaldy.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-knutsford.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-largs.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-leamington-spa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-leatherhead.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-leeds.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-leicester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-liverpool.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-london.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-los-gatos-ca.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-ludlow.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-luton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-lymington.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-maidenhead.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-manchester.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-manly-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-margaret-river-wa.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-markham-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-marlow.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-melrose.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-middlesbrough.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-mill-valley-ca.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-milton-keynes.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-mosman-nsw.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-naperville-il.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-naples-fl.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-newcastle.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-newmarket-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-newport.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-noosa-qld.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-north-berwick.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-north-vancouver-bc.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-northampton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-norwich.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-nottingham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-oakville-on.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-orange-nsw.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-orpington.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-overland-park-ks.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-oxford.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-padstow.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-paisley.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-palm-beach-nsw.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-park-city-ut.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-peckham.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-peebles.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-penzance.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-perth.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-peterborough.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-pitlochry.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-plano-tx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-pleasanton-ca.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-plymouth.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-port-douglas-qld.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-portsmouth.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-preston.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-reading.html</loc><priority>0.8</priority></url>
@@ -280,18 +451,34 @@
   <url><loc>https://moorbuilds.co.uk/website-design-richmond-hill-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-richmond.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-ripon.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-rye.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-saffron-walden.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-salcombe.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-san-ramon-ca.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-sarasota-fl.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-scottsdale-az.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-sevenoaks.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-shaftesbury.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-sheffield.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-sherborne.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-sidmouth.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-sidney-bc.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-skipton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-sorrento-vic.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-southampton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-southwold.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-st-albans.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-st-albert-ab.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-st-andrews.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-st-catharines-on.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-st-ives.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-st-johns-nl.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-staines.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-stirling.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-stockbridge.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-stockport.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-stoke.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-stratford-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-stratford-upon-avon.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-sugar-land-tx.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-sunderland.html</loc><priority>0.8</priority></url>
@@ -299,23 +486,36 @@
   <url><loc>https://moorbuilds.co.uk/website-design-surrey.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-sutton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-swansea.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-taunton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-tavistock.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-tetbury.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-the-woodlands-tx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-tiverton.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-tonbridge.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-toowoomba-qld.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-totnes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-troon.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-truro.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-tunbridge-wells.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-twickenham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-vaughan-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-victoria-bc.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-walsall.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-warwick.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-waterloo-on.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-watford.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-west-vancouver-bc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-westport-ct.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-weybridge.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-weymouth.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-whistler-bc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-whitstable.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-wilmslow.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-windsor.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-woking.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-wokingham.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-wolverhampton.html</loc><priority>0.8</priority></url>
+  <url><loc>https://moorbuilds.co.uk/website-design-woodbridge.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/website-design-york.html</loc><priority>0.8</priority></url>
   <url><loc>https://moorbuilds.co.uk/privacy.html</loc><priority>0.2</priority></url>
   <url><loc>https://moorbuilds.co.uk/terms.html</loc><priority>0.2</priority></url>
